@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+    <head>
+        <meta charset ="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body background="cadastroTurma.jpg">
+
+        <center>
+        <h1>Bem Vindo ao Sistema Da Faculdade</h1>
+        <hr>
+        <h2>Tela de Cadastro de Utilizador</h2>
+        <hr>
+
+
+
+
+        <form method="POST" action="cadastro.php">
+          <b>  UTILIZADOR:</b> <br>
+            <input type ="text" name="txt_usuario" ><br>
+            <b>  SENHA:</b> <br>
+            <input type="password" name="txt_senha" placeholder="Oque lhe vier a mente"> <br>
+
+          <b>EMAIL:</b><br>
+            <input type="email" name="txt_email"><br>
+            <b>  NIVEL:</b><br>
+            <select name="txt_nivel">
+                <option value="Admin" >Administrador</option>
+                <option value="Docente" >Docente</option>
+                <option value="Aluno" >Aluno</option>
+                <option value="Outro" >Outro</option>
+            </select>
+    <br>
+    <br>
+            <input type="submit" value="Cadastrar"><br>
+            
+            <a href="index.html">Efectuar Login</a>
+        </form>
+    </center>
+
+    </body>  
+
+</html>
